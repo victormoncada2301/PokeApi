@@ -7,7 +7,7 @@ class Navbar extends Component {
       <div className="navbar"> 
         <ul className="navlist">
           <img src={require('../stylesheet/pokeapi.png')} width='150px'/>
-          <a href="https://github.com/victormoncada2301" className="favorites-tab">GitHub</a>
+          <a href="https://github.com/victormoncada2301/PokeApi" className="favorites-tab">GitHub</a>
         </ul>
       <div> 
         <ul className="navlist">
