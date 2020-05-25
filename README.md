@@ -1,10 +1,10 @@
-# PokeApi
+# PokeApi - React
  
 Bienvenidos a la aplicación de Pokemon **PokeApi** , a continuación les explico brevemente el funcionamiento
 
   1. Descargar e instalar Node.js , Bower, Visual Studio Code , Git
 
-  2. Clonar el repositorio con el comando ("git clone") y pegar el enlace
+  2. Clonar el repositorio con el comando **"git clone"** y pegar el enlace
 
   3. Se debe ejecutar el siguiente comando por la consola de Git ("npm install")
 
