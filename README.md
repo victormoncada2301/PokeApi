@@ -12,7 +12,7 @@ Bienvenidos a la aplicación de Pokemon **PokeApi** , a continuación les explic
 
   Todo esto quedara en la carpeta llamada **"Node_Modules"** y de esta manera todas la librerias quedan almacenadas en el equipo
    
-   4.Ejecuta el comando **"Npm Start"** para iniciar el servidor en el puerto: **http://localhost:8080/**
+   4.Ejecuta el comando **"Npm Start"** para iniciar el servidor en el puerto: **http://localhost:3000/**
 
 Si quieres tener una idea más clara del funcionamiento de la aplicación les recomiendo tomarse unos minutos y revisar el codigo fuente.
 
