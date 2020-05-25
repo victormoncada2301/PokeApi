@@ -1,0 +1,63 @@
+class PokemonGrid extends Component {
+  constructor() {
+    super()
+    this.state = {
+      pokemon: [1, 2, 3, 4, 5]
+    }
+    axios.get('https://pokeapi.co/api/v2/pokemon/')
+    .then(function (response) {
+      console.log(response);
+    })
+    .catch(function (error) {
+      console.log(error);
+    });
+  }
+
+  ^^FETCHING INFO
+  
+  renderPokemon() {
+    const pokemon = this.state.pokemon;
+    const pokemonList = pokemon.map(() => 
+      <li>hi</li>
+    );
+    return pokemonList;
+  }
+
+  ^^TAKING THAT INFO
+
+  render() {
+    return (
+      <div className="pokemon-grid">
+        <div className="poke-card"></div>
+        { this.renderPokemon() }
+      </div>
+    )
+  }
+}
+
+  ^^SHOWING THE INFO
+
+
+
+
+THIS IS HOW YOU MAKE A CONTAINER:
+
+function mapStateToProps(state) {
+  return {
+      PokemonReducer: state.PokemonReducer
+  }
+}
+
+export default connect(mapStateToProps)(PokemonPage);
+
+
+
+
+GIT COMMANDS:
+
+
+git status (to see files)
+git add .
+git status (to see files)
+git commit -m '<Message here>'
+git push origin master
