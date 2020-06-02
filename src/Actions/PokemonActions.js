@@ -2,7 +2,7 @@ import axios from "axios";
 
 export function getPokemonList() {
     return function (dispatch) {
-        return axios.get('https://pokeapi.co/api/v2/pokemon/')
+        return axios.get('https://pokeapi.co/api/v2/pokemon?limit=151')
         .then(function (response) {
             dispatch(FETCHED_POKEMON(response.data.results));
         })
